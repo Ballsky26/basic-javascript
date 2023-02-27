@@ -6,7 +6,7 @@ alert("Ballsky");
 
 // Prompt
 var nama = prompt("Masukkan Nama Anda:");
-alert(nama);
+alert("Nama anda adalah : " + nama);
 
 // Confirm
 var tes = confirm("Apakah anda yakin?");
