@@ -24,8 +24,9 @@ while (nilaiAwal <= 10) {
 }
 
 // Latihan
+var jmlAngkot = 10;
 var nilaiAngkot = 1;
-while (nilaiAngkot <= 10) {
+while (nilaiAngkot <= jmlAngkot) {
   console.log("Angkot No. " + nilaiAngkot + " Beroperasi dengan Baik.");
   nilaiAngkot++;
 }
