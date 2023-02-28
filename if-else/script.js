@@ -9,7 +9,7 @@ if (angka < 5) {
   alert(angka + " Lebih Kecil dari 5");
 }
 
-// var angka = 3;
+var angka = 3;
 if (angka % 2 == 0) {
   alert(angka + " adalah bilangan GENAP");
 }
