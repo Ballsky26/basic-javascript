@@ -1,7 +1,7 @@
 // Pengulangan For
-// for (var nilaiAwal = 1; nilaiAwal <= 10; nilaiAwal++) {
-//   console.log("Hello World Ke " + nilaiAwal);
-// }
+for (var nilaiAwal = 1; nilaiAwal <= 10; nilaiAwal++) {
+  console.log("Hello World Ke " + nilaiAwal);
+}
 
 // Latihan
 var jmlAngkot = 10;
