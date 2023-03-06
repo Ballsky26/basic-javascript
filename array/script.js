@@ -24,6 +24,12 @@
 // console.log(arr);
 
 // 2. Menghapus isi Array
-var arr = ["Ari", "Iqbal", "Andi"];
-arr[1] = undefined;
-console.log(arr);
+// var arr = ["Ari", "Iqbal", "Andi"];
+// arr[1] = undefined;
+// console.log(arr);
+
+// 3. Menampilkan isi Array
+var arr = ["Ari", "Iqbal", "Andi", "Miki", "Rasya"];
+for (var i = 0; i < arr.length; i++) {
+  console.log("Player ke-" + (i + 1) + " : " + arr[i]);
+}
