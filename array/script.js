@@ -75,8 +75,8 @@
 // console.log(arr2.join(" - "));
 
 // 6. forEach
-var angka = [1, 2, 3, 4, 5, 6, 7, 8];
-var nama = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+// var angka = [1, 2, 3, 4, 5, 6, 7, 8];
+// var nama = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
 // for (var i = 0; i < angka.length; i++) {
 //   console.log(angka[i]);
 // }
@@ -85,6 +85,13 @@ var nama = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
 //   console.log(e);
 // });
 
-nama.forEach(function (e, i) {
-  console.log("Player ke - " + i + " adalah : " + e);
+// nama.forEach(function (e, i) {
+//   console.log("Player ke - " + i + " adalah : " + e);
+// });
+
+// 7. Map
+var angka = [1, 2, 3, 4, 5, 6, 7, 8];
+var angka2 = angka.map(function (e) {
+  return e * 2;
 });
+console.log(angka2.join(" - "));
