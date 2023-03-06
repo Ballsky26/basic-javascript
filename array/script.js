@@ -104,9 +104,17 @@
 // console.log(angka.join(" - "));
 
 // 9. Filter (Mencari nilai dan Mengembalikannya dalam bentuk array dalam banyak nilai)
+// var angka = [1, 2, 10, 5, 4, 20, 3, 7, 9];
+// var angka2 = angka.filter(function (x) {
+//   return x == 5;
+//   return x > 5;
+// });
+// console.log(angka2.join(" - "));
+
+// 10. Find (Mencari nilai dan Mengembalikannya dalam bentuk array dalam satu nilai)
 var angka = [1, 2, 10, 5, 4, 20, 3, 7, 9];
-var angka2 = angka.filter(function (x) {
-  return x == 5;
-  //   return x > 5;
+var angka2 = angka.find(function (x) {
+  //   return x == 5;
+  return x > 5;
 });
-console.log(angka2.join(" - "));
+console.log(angka2);
