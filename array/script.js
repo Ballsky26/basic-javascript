@@ -57,6 +57,14 @@
 // console.log(arr.join(" - "));
 
 // Shift
-var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
-arr.shift();
-console.log(arr.join(" - "));
+// var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+// arr.shift();
+// console.log(arr.join(" - "));
+
+// 4. Splice (Menyisipkan Array di tengah-tengah)
+// Splice(indexAwal, mauDihapusBerapa, elemenBaru1, elemen,Baru2, ...)
+// var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+// arr.splice(3, 0, "Tyrant", "Andix");
+// arr.splice(1, 2, "Tyrant", "Fandi");
+
+// console.log(arr.join(" - "));
