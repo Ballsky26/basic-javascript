@@ -66,5 +66,10 @@
 // var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
 // arr.splice(3, 0, "Tyrant", "Andix");
 // arr.splice(1, 2, "Tyrant", "Fandi");
-
 // console.log(arr.join(" - "));
+
+//  5. Slice (Mengubah array menjadi Baru)
+// Slice(awal, akhir (Dikurangi Satu dari nilai array));
+var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+var arr2 = arr.slice(1, 4);
+console.log(arr2.join(" - "));
