@@ -70,6 +70,21 @@
 
 //  5. Slice (Mengubah array menjadi Baru)
 // Slice(awal, akhir (Dikurangi Satu dari nilai array));
-var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
-var arr2 = arr.slice(1, 4);
-console.log(arr2.join(" - "));
+// var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+// var arr2 = arr.slice(1, 4);
+// console.log(arr2.join(" - "));
+
+// 6. forEach
+var angka = [1, 2, 3, 4, 5, 6, 7, 8];
+var nama = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+// for (var i = 0; i < angka.length; i++) {
+//   console.log(angka[i]);
+// }
+
+// angka.forEach(function (e) {
+//   console.log(e);
+// });
+
+nama.forEach(function (e, i) {
+  console.log("Player ke - " + i + " adalah : " + e);
+});
