@@ -36,5 +36,16 @@
 
 // Method pada Array
 // 1. Join
-var arr = ["Ari", "Iqbal", "Andi", "Miki", "Rasya"];
+// var arr = ["Ari", "Iqbal", "Andi", "Miki", "Rasya"];
+// console.log(arr.join(" - "));
+
+// 2. Push & Pop (Menambahkan element Array Baru di Akhir, Menghapus element Array di Akhir)
+// Push
+var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+arr.push("Tyrant");
+console.log(arr.join(" - "));
+
+// Pop
+var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+arr.pop();
 console.log(arr.join(" - "));
