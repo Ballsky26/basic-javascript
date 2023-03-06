@@ -1,6 +1,6 @@
 // Key and value Pair - Mengakses elemen Pada Array
-var binatang = ["Kucing", "Kelinci", "Monyet", "Panda", "Koala", "Sapi"];
-console.log(binatang[4]);
+// var binatang = ["Kucing", "Kelinci", "Monyet", "Panda", "Koala", "Sapi"];
+// console.log(binatang[4]);
 
 // Bertipe Object
 // console.log(typeof binatang);
@@ -9,5 +9,15 @@ console.log(binatang[4]);
 // console.log(binatang.length);
 
 // Array Multidimensi
-var myArray = ["teks", 2, false, myfunction, [4, 5, 6]];
-console.log(myArray[4][1]);
+// var myArray = ["teks", 2, false, myfunction, [4, 5, 6]];
+// console.log(myArray[4][1]);
+
+// Manipulasi Array
+
+// 1. Menambah isi Array
+var arr = [];
+arr[0] = "Syaiful";
+arr[1] = "Iqbal";
+arr[2] = "Ballsky";
+arr[6] = "Ari";
+console.log(arr);
