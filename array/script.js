@@ -41,11 +41,22 @@
 
 // 2. Push & Pop (Menambahkan element Array Baru di Akhir, Menghapus element Array di Akhir)
 // Push
-var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
-arr.push("Tyrant");
-console.log(arr.join(" - "));
+// var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+// arr.push("Tyrant");
+// console.log(arr.join(" - "));
 
 // Pop
+// var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+// arr.pop();
+// console.log(arr.join(" - "));
+
+// 3. Unshift & Shift (Menambahkan element Array Baru di Pertama, Menghapus element Array di Pertama)
+// Unshift
+// var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
+// arr.unshift("Tyrant");
+// console.log(arr.join(" - "));
+
+// Shift
 var arr = ["Ari", "Iqbal", "Bagus", "Miki", "Rasya"];
-arr.pop();
+arr.shift();
 console.log(arr.join(" - "));
