@@ -15,9 +15,15 @@
 // Manipulasi Array
 
 // 1. Menambah isi Array
-var arr = [];
-arr[0] = "Syaiful";
-arr[1] = "Iqbal";
-arr[2] = "Ballsky";
-arr[6] = "Ari";
+// var arr = [];
+// arr[0] = "Syaiful";
+// arr[1] = "Iqbal";
+// arr[2] = "Ballsky";
+// arr[6] = "Ari";
+
+// console.log(arr);
+
+// 2. Menghapus isi Array
+var arr = ["Ari", "Iqbal", "Andi"];
+arr[1] = undefined;
 console.log(arr);
