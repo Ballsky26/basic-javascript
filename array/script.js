@@ -112,9 +112,48 @@
 // console.log(angka2.join(" - "));
 
 // 10. Find (Mencari nilai dan Mengembalikannya dalam bentuk array dalam satu nilai)
-var angka = [1, 2, 10, 5, 4, 20, 3, 7, 9];
-var angka2 = angka.find(function (x) {
-  //   return x == 5;
-  return x > 5;
-});
-console.log(angka2);
+// var angka = [1, 2, 10, 5, 4, 20, 3, 7, 9];
+// var angka2 = angka.find(function (x) {
+// return x == 5;
+//   return x > 5;
+// });
+// console.log(angka2);
+
+// Latihan
+
+var penumpang = ["Iqbal", undefined, "Rasya"];
+
+var tambahPenumpang = function (namaPenumpang, penumpang) {
+  // Jika angkot kosong
+  if (penumpang.length == 0) {
+    // Tambah penumpang di awal array
+    penumpang.push(namaPenumpang);
+    // Kembalikan isi array & keluar function
+    return penumpang;
+  } else {
+    // Telusuri kursi dari awal
+    for (var i = 0; i < penumpang.length; i++) {
+      // Jika ada kursi yang kosong
+      if (penumpang[i] == undefined) {
+        // tambah penumpang di kursi tersebut
+        penumpang[i] = namaPenumpang;
+        // Kembalikan isi array & keluar dari function
+        return penumpang;
+      }
+      // Jika sudah ada nama yang sama
+      else if (penumpang[i] == namaPenumpang) {
+        // Tampilkan pesan kesalahan
+        console.log(namaPenumpang + "Sudah ada di dalam angkot.");
+        // Kembalikan isi array & keluar dari function
+        return penumpang;
+      }
+      // Jika seluruh kursi terisi
+      else if (i == penumpang.length - 1) {
+        // Tambah penumpang di akhir array
+        penumpang.push(namaPenumpang);
+        // Kembalikan isi array & keluar dari function
+        return penumpang;
+      }
+    }
+  }
+};
