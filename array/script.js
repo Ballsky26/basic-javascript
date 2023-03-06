@@ -29,7 +29,12 @@
 // console.log(arr);
 
 // 3. Menampilkan isi Array
+// var arr = ["Ari", "Iqbal", "Andi", "Miki", "Rasya"];
+// for (var i = 0; i < arr.length; i++) {
+//   console.log("Player ke-" + (i + 1) + " : " + arr[i]);
+// }
+
+// Method pada Array
+// 1. Join
 var arr = ["Ari", "Iqbal", "Andi", "Miki", "Rasya"];
-for (var i = 0; i < arr.length; i++) {
-  console.log("Player ke-" + (i + 1) + " : " + arr[i]);
-}
+console.log(arr.join(" - "));
