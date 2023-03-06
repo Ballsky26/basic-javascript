@@ -97,8 +97,16 @@
 // console.log(angka2.join(" - "));
 
 // 8. Sort (Mengurutkan)
+// var angka = [1, 2, 10, 5, 4, 20, 3, 7, 9];
+// angka.sort(function (a, b) {
+//   return a - b;
+// });
+// console.log(angka.join(" - "));
+
+// 9. Filter (Mencari nilai dan Mengembalikannya dalam bentuk array dalam banyak nilai)
 var angka = [1, 2, 10, 5, 4, 20, 3, 7, 9];
-angka.sort(function (a, b) {
-  return a - b;
+var angka2 = angka.filter(function (x) {
+  return x == 5;
+  //   return x > 5;
 });
-console.log(angka.join(" - "));
+console.log(angka2.join(" - "));
