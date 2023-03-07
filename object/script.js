@@ -27,3 +27,26 @@ var mahasiswa2 = {
     provinsi: "Java",
   },
 };
+
+// Function Declaration
+function buatObjectMahasiswa(nama, nrp, email, jurusan) {
+  var mahasiswa = {};
+  mahasiswa.nama = nama;
+  mahasiswa.nrp = nrp;
+  mahasiswa.email = email;
+  mahasiswa.jurusan = jurusan;
+  return mahasiswa;
+}
+
+var mahasiswa3 = buatObjectMahasiswa(
+  "Alun Meru Nuzula",
+  "182400097",
+  "Alunmeruzuula97@gmail.com",
+  "Teknik Informatika"
+);
+var mahasiswa4 = buatObjectMahasiswa(
+  "Agung Novanto",
+  "182400023",
+  "Agungnovanto23@gmail.com",
+  "Teknik Informatika"
+);
