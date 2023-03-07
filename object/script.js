@@ -50,3 +50,20 @@ var mahasiswa4 = buatObjectMahasiswa(
   "Agungnovanto23@gmail.com",
   "Teknik Informatika"
 );
+
+// Constructor
+function Mahasiswa(nama, nrp, email, jurusan) {
+  // var this = {};
+  this.nama = nama;
+  this.nrp = nrp;
+  this.email = email;
+  this.jurusan = jurusan;
+  // return this;
+}
+
+var mahasiswa5 = new Mahasiswa(
+  "Mohammmad Farkhan",
+  "192400025",
+  "Mohammadfarkhan23@gmail.com",
+  "Teknik Informatika"
+);
