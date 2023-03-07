@@ -99,5 +99,6 @@ function Angkot(supir, trayek, penumpang, kas) {
   };
 }
 
+// Data Angkot
 var angkot1 = new Angkot("Iqbal", ["Tirto", "Wiradesa"], [], 0);
 var angkot2 = new Angkot("Fadil", ["Boom", "Kedungwuni"], [], 0);
