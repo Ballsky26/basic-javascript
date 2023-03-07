@@ -67,3 +67,37 @@ var mahasiswa5 = new Mahasiswa(
   "Mohammadfarkhan23@gmail.com",
   "Teknik Informatika"
 );
+
+// Latihan Object
+function Angkot(supir, trayek, penumpang, kas) {
+  this.supir = supir;
+  this.trayek = trayek;
+  this.penumpang = penumpang;
+  this.kas = kas;
+
+  // Penumpang Naik
+  this.penumpangNaik = function (namaPenumpang) {
+    this.penumpang.push(namaPenumpang);
+    return this.penumpang;
+  };
+
+  // Penumpang Turun
+  this.penumpangTurun = function (namaPenumpang, bayar) {
+    // Angkot Kosong
+    if (this.penumpang.length === 0) {
+      alert("Angkot masih Kosong!");
+      return false;
+    }
+    for (var i = 0; i < this.penumpang.length; i++) {
+      // Jika Angkot ada penumpang
+      if (this.penumpang[i] == namaPenumpang) {
+        this.penumpang[i] = undefined;
+        this.kas += bayar;
+        return this.penumpang;
+      }
+    }
+  };
+}
+
+var angkot1 = new Angkot("Iqbal", ["Tirto", "Wiradesa"], [], 0);
+var angkot2 = new Angkot("Fadil", ["Boom", "Kedungwuni"], [], 0);
